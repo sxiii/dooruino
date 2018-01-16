@@ -46,3 +46,6 @@ https://docs.google.com/presentation/d/1YjkmqbQb2FImgZNrO74sPTNA0jRXeOzomwJ-jpKu
 
 ## Searching for developers and commits!
 If you like this project and find it useful, please, improve it by your commits. Thank you!
+
+## Contacts
+Project creator & ideator: @sxiii (telegram: https://t.me/fakesnowden)
