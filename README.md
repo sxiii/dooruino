@@ -38,13 +38,16 @@ The arduino has two devices: the ethernet shield (to get the command from the ne
 3) Open downloaded dooru.ino file (dooruino folder) in the IDE
 4) Press "upload" button & wait for upload to finish
 5) Connect arduino to door lock (arduino PIN #2 and GND to door lock contacts)
-6) Install Ethernet shield
-7) Optional step: connect speaker to contacts # and #
+6) Install Ethernet shield on the arduino & connect it to your local network
+7) Optional step: connect speaker to contacts 8 and GND
 8) Open web page of arduino IP address (default: 192.168.1.200) and try to enter PIN (default: 3214)
 9) Profit!
 
-## NOTE
+## NOTES
 * The default PIN is: 3214 (please give a second after pressing each button).
+* The default IP is: 192.168.1.200
+* The default MAC address of ethernet shield is: 00:05:B5:00:05:B5
+* Wireshark program is helpful to research the (ethernet) output of arduino
 * You can add the PIN after the URL of the arduino like this: http://aruino-ip/3214
 * You can change the PIN yourself: ` if (readString.indexOf("3214 ") > 0  )`
 
