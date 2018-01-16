@@ -31,6 +31,22 @@ The arduino has two devices: the ethernet shield (to get the command from the ne
 * You can remotely unlock the door even being long distance away, even via IRC or Telegram etc. (might need a small bot-redirector)
 * Self-watchdog which resets the device after some time
 
+## How to use this repo
+0) Install git, if you don't already (ubuntu: `sudo apt install git`)
+1) Clone this repo: https://github.com/sxiii/dooruino
+2) Download, install and start arduino IDE
+3) Open downloaded dooru.ino file in the IDE
+4) Press "upload" button
+5) Wait for upload to finish
+6) Connect arduino to door lock
+7) Open web page of arduino IP address and try to enter PIN (default: 3214)
+8) Profit!
+
+## NOTE
+* The default PIN is: 3214 (please give a second after pressing each button).
+* You can add the PIN after the URL of the arduino like this: http://aruino-ip/3214
+* You can change the PIN yourself: ` if (readString.indexOf("3214 ") > 0  )`
+
 ## Future plans
 * Make the device be compatible with different locks
 * Security features (have to think about it more)
